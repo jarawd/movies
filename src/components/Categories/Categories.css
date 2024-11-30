@@ -1,0 +1,45 @@
+.categories {
+  margin: 20px 0 80px 0;
+  width: 100%;
+}
+
+.categories__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categories__section-slider {
+  display: flex;
+  position: relative;
+}
+
+.categories__section-arrow {
+  color: #ccc;
+  filter: drop-shadow(3px 3px 2px #222);
+  font-size: 80px;
+  position: absolute;
+  top: 135px;
+  cursor: pointer;
+}
+
+.categories__section-arrow_left {
+  z-index: 1;
+  left: 15px;
+}
+
+.categories__section-arrow_right {
+  right: 15px;
+}
+
+
+.categories__section-movies {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.categories__section-movies::-webkit-scrollbar {
+  display: none;
+}

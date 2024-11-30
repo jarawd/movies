@@ -1,0 +1,33 @@
+.search {
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.search__text {
+  width: 100%;
+  border: none;
+  border-radius: 7px 0 0 7px;
+  margin-right: 2px;
+  height: 30px;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.search__text:focus {
+  outline: none;
+  border: none;
+}
+
+.search__btn {
+  border: none;
+  border-radius: 0 7px 7px 0;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 711px) {
+  .search {
+    grid-area: search;
+  }
+}

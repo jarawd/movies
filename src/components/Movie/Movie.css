@@ -1,0 +1,24 @@
+.movie {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  flex: 0 0 auto;
+  margin: 0 auto;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 15px;
+}
+
+.movie__poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center
+}
+
+.movie__title {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
