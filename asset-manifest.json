@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/movies/static/css/main.50fe5ebb.css",
+    "main.js": "/movies/static/js/main.e7a1d1fc.js",
+    "static/media/hero.jpg": "/movies/static/media/hero.3a513b8e0952ee05dc78.jpg",
+    "static/media/me.jpeg": "/movies/static/media/me.7ba022aa050b00d25769.jpeg",
+    "static/media/github.svg": "/movies/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "index.html": "/movies/index.html",
+    "static/media/linkedin.svg": "/movies/static/media/linkedin.55fb388c4c9df6986ca32fe64a60414a.svg",
+    "main.50fe5ebb.css.map": "/movies/static/css/main.50fe5ebb.css.map",
+    "main.e7a1d1fc.js.map": "/movies/static/js/main.e7a1d1fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50fe5ebb.css",
+    "static/js/main.e7a1d1fc.js"
+  ]
+}
